@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <!-- GET vs POST
+         GET day thoong tin len URL  lam lo thong tin
+        POST ko day thong tin len thanh URL  -->
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter name" maxlength="6">
+        <input type="text" value="Kh001" readonly>
+        <input type="text" value="Kh002" disabled>
+        <br>
+        <br>
+        <input type="number"name="number" id="id" placeholder="Enter Number" min="0" max="5">
+        <input type="password" name="password" id="" placeholder="Enter Password" size="50">
+        <input type="email" name="email" placeholder="Enter Email" >
+        <input type="text"placeholder="Enter address" Required>
+        <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-12-123">
+        <input type="day" name="date" placeholder="">
+        <input type="file" name="" id="">
+        <textarea name="" id="" cols="30" rows="10"></textarea >
+            <!-- combobox / dropdown -->
+            <select name="" id="">
+                <option value="">Chon loai xe</option>
+                <option value="">honda</option>
+                <option value="">Yamaha</option>
+            </select>
+
+                <select name="" id="" multiple>
+                    <option value="">Chon loai xe</option>
+                    <option value="">honda</option>
+                    <option value="">Yamaha</option>
+                </select>
+
+                    <select name="" id="" >
+                        <option value="">Chon loai xe</option>
+                      <optgroup>
+                        <option value="">Chon loai xe may</option>
+                        <option value="">Honda</option>
+                        <option value="">Yamaha</option>
+                      </optgroup>
+                      <optgroup>
+                        <option value="">Chon loai xe dap</option>
+                        <option value="">martin</option>
+                        <option value="">Pega</option>
+                      </optgroup>
+                      </select>
+            <label for=""></label>
+            <input type="checkbox" name="subject" id="math"value="math">
+            <label for="math">math</label>
+            <input type="checkbox" name="subject" id="history"value="history">
+            <label for="history">history</label>
+            <input type="checkbox" name="subject" id="bio"value="bio">
+            <label for="bio">bio</label>
+            <input type="checkbox" name="subject" id="phy"value="phy">
+            <label for="phy">phy</label>
+<br>
+<input type="radio" name="gender" id="male" value="M">
+<label for="male">male</label>
+<input type="radio" name="gender" id="female" value="F">
+<label for="female">female</label>
+<input type="radio" name="gender" id="other" value="0">
+<label for="other">other</label>
+
+        <br>
+        <br>
+        <!-- gom nhom -->
+        <fieldset>
+            <legend>Information</legend>
+            <input type="text" name="" id="" placeholder>
+
+        </fieldset>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <input type="button" value="Button">
+        <input type="reset" value="Reset">
+
+
+
+    </form>
+    
+</body>
+</html>
